@@ -1,0 +1,12 @@
+# Bicep build output
+*.json
+!*.parameters.json
+
+# Local parameter overrides and secrets
+*.local.bicepparam
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
